@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+section{
+
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+div{
+    margin: auto;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 0.25rem;
+}
+
+
+label{
+    display: block;
+    margin: auto;
+    margin-top: 0.25rem;
+}
+
+
+input{
+    width: 100%;
+    padding: 1rem;
+    display: block;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+th,td{
+    word-wrap: break-word;
+}
+
+table, th, td{
+    padding: 0.2rem;
+    color: var(--dark-green);
+    background-color:var(--faint-green);
+    border: 2px solid var(--dark-green) ;
+    border-collapse: collapse;
+}
+
+.div-cashGiven{
+    display: none;
+}

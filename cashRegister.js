@@ -14,7 +14,7 @@ nextBtn.addEventListener('click', function nextClicked(){
     hideErrorMessage();
     if(billAmt.value>0){
         console.log(billAmt.value);
-       // displayCashGivenDiv();
+        displayCashGivenDiv();
     }else{
         console.log("inside else");
         displayErrorMessage("Enter amount greater that 0");
@@ -27,7 +27,7 @@ checkBtn.addEventListener('click', function checkClicked(){
     
     var cash = parseInt(cashGiven.value);
     var bill = parseInt(billAmt.value);
-    
+    hideErrorMessage();
     if(cash>0 && cash > bill){
         var amountToReturn = cash - bill;
 
@@ -46,7 +46,7 @@ checkBtn.addEventListener('click', function checkClicked(){
 } )
 
 function displayCashGivenDiv(){
-    cashGivenDiv.style = "block";
+    cashGivenDiv.style = "display : block";
 }
 
 
